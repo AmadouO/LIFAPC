@@ -1,4 +1,8 @@
 // g++ -std=c++23 -Wall -Wextra main.cpp -o prog
+//g++ -std=c++23 -Wall -Wextra -g *.cpp -o prog      //compilez votre programme avec des options de débogage :
+// gdb ./prog                                       //exécuter le programme avec gdb (le débogueur GNU) pour voir où se produit l'erreur :
+// run                                             //pour exécuter votre programme :
+
 #include <iostream>
 #include <memory>
 
